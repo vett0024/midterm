@@ -1,0 +1,59 @@
+body{
+    
+}
+.wrapper{
+    width: 1024px;
+    margin: auto;                            /*used this to give top the whole body a different colour like the mockup */ 
+    background-color: #aad4cf;      
+    padding: 10px;
+}
+header{
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    padding: 90px;
+    color: black;
+}
+header h1{
+    position: relative;
+    bottom: 200px;
+    color: aliceblue;   
+    font-size: 50px;
+}
+
+header li{
+    display: inline-block;
+    
+    
+    font-weight: bolder;
+}
+article{
+    
+    padding: 10px;
+    
+}
+article img{
+    float: left;                        /*used this to wrap the text around */ 
+    padding-right: 50px;           
+    width: 200px;
+}
+
+.contactbox{ 
+   
+    
+    box-sizing: content-box;
+    width: 93%;
+    height:260px;
+    border: solid black;
+    padding: 20px;
+
+}
+#y-name,#y-email{
+    
+    width: 900px;          /*stylized the box */ 
+}                           
+#y-message{
+    height: 40px;
+    width: 900px;
+}
